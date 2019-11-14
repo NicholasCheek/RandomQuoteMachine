@@ -44,6 +44,12 @@ class QuoteMachine extends React.Component {
       [
         "I was eating in a Chinese restaraunt downtown. There was a dish called Mother and Child Reunion. It's chicken and eggs. And I said, I gotta use that one.",
         "Paul Simon"
+      ],
+      [
+        "Before you marry a person you should first make them use a computer with slow internet to see who they really are.", "Will Ferrell"
+      ],
+      [
+        "Folks, I don't trust children. They're here to replace us.", "Stephen Colbert"
       ]
     ];
     quote = quotes[Math.floor(Math.random() * quotes.length)];
