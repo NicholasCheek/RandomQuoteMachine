@@ -50,6 +50,9 @@ class QuoteMachine extends React.Component {
       ],
       [
         "Folks, I don't trust children. They're here to replace us.", "Stephen Colbert"
+      ],
+      [
+        "Is a hippopotamus a hippopotamus or just a really cool opotamus?", "Mitch Hedberg"
       ]
     ];
     quote = quotes[Math.floor(Math.random() * quotes.length)];
